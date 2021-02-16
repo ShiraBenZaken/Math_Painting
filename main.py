@@ -34,7 +34,7 @@ while True:
         sqr_x = int(input("Enter x for Square "))
         sqr_y = int(input("Enter y for Square "))
         sqr_side = int(input("Enter side lenght for Square "))
-        red = int(input("How mach red do u like in the Rectangle "))
+        red = int(input("How mach red do u like in the Square "))
         green = int(input("How mach green "))
         blue = int(input("How mach blue "))
         # Create the Square
