@@ -19,6 +19,6 @@ class Canvas:
         # Convert array to image
         img = Image.fromarray(self.data, 'RGB')
         img.save(imagepath)
-        cli = Client('AwLL2HELRRODyqYu8aWBxz')
+        cli = Client('my_api')
         filelink = cli.upload(filepath=imagepath)
         print(filelink.url)  
